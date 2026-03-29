@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \":*)",
+      "Bash(ls:*)",
+      "Bash(pyinstaller --version)",
+      "Bash(pip install:*)",
+      "Bash(pyinstaller --onefile --noconsole --name Chess main.py)",
+      "Bash(python:*)"
+    ]
+  }
+}
